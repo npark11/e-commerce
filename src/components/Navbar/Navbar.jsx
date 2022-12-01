@@ -25,15 +25,12 @@ const Navbar = () => {
           </div>
           <div className="item">
             <Link className="link" to="/products/1">Women</Link>
-            <KeyboardArrowDownIcon />
           </div>
           <div className="item">
             <Link className="link" to="/products/2">Men</Link>
-            <KeyboardArrowDownIcon />
           </div>
           <div className="item">
-            <Link className="link" to="/products/3">Children</Link>
-            <KeyboardArrowDownIcon />
+            <Link className="link" to="/products/3">Kids</Link>
           </div>
         </div>
         
@@ -42,9 +39,9 @@ const Navbar = () => {
         </div>
 
         <div className="right">
-          <div className="item">
+          {/* <div className="item">
             <Link className="link" to="/">Homepage</Link>
-          </div>
+          </div> */}
           <div className="item">
             <Link className="link" to="/">About</Link>
           </div>

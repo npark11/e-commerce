@@ -15,15 +15,23 @@ const Products = () => {
           <h2>Product Categories</h2>
           <div className="inputItem">
             <input type="checkbox" id="1" value={1} />
-            <label htmlFor="1">Shoes</label>
+            <label htmlFor="1">Dress</label>
           </div>
           <div className="inputItem">
             <input type="checkbox" id="2" value={2} />
-            <label htmlFor="1">Skirt</label>
+            <label htmlFor="1">Coats</label>
           </div>
           <div className="inputItem">
             <input type="checkbox" id="3" value={3} />
-            <label htmlFor="1">Coats</label>
+            <label htmlFor="1">Skirt</label>
+          </div>
+          <div className="inputItem">
+            <input type="checkbox" id="4" value={4} />
+            <label htmlFor="1">Bag</label>
+          </div>
+          <div className="inputItem">
+            <input type="checkbox" id="5" value={5} />
+            <label htmlFor="1">Shoes</label>
           </div>
         </div>
 
@@ -51,7 +59,7 @@ const Products = () => {
 
       <div className="right">
         <img className="catImg" 
-          src="https://images.pexels.com/photos/1074535/pexels-photo-1074535.jpeg?auto=compress&cs=tinysrgb&w=1600" 
+          src="https://images.pexels.com/photos/9436715/pexels-photo-9436715.jpeg?auto=compress&cs=tinysrgb&w=1600" 
           alt="" 
         />
         <List catId={catId} maxPrice={maxPrice} sort={sort} />
